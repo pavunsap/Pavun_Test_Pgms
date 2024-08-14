@@ -7,19 +7,33 @@ import java.util.Scanner;
 
 public class Test {
 
-	String s;
-		Test(){	
-		System.out.println("Constructor");
-		}
-		
-		void mark() {
-			
-			System.out.println("marks");
-			
-		}
-		public static void main(String[] args) {
-			
-			Test t = new Test();
-			t.mark();
-		}
+public static void main(String[] args) {
+	
+	class HelloWorld {
+	    public static void main(String[] args) {
+
+	String[] s = {"Pavun","Siva","Siva"};
+
+	for(int i=0;i<s.length;i++){
+	    
+	    for(int j=i+1;j<s.length;j++){
+	        
+	        
+	        if(s[i]==s[j]){
+	            
+	            System.out.println(s[i]);
+	        }
+	    }
+	    
+	}
+
+
+	    }
+	}
+	
+	
+	
+	
+}
+
 }
